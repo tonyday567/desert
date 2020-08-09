@@ -1,0 +1,8 @@
+cradle:
+  stack:
+    - path: "./app/desert.hs"
+      component: "desert:exe:desert"
+    - path: "./src"
+      component: "desert:lib"
+    - path: "./test/desert.hs"
+      component: "desert:test:desert"
